@@ -8,7 +8,7 @@ let skorP1 = 0;
 let skorP2 = 0;
 
 for (let i = 1; i <= 5; i++) {
-  const random = Math.floor(Math.random() * 4);
+  const random = Math.floor(Math.random() * 3) + 1;
   const player1 = prompt("Player 1 : masukan angka...");
   const player2 = prompt("Player 2 : masukan angka...");
 
